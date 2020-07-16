@@ -1,0 +1,8 @@
+cacert.pem
+certificate_authority_key.pem
+host1_server_certificate.pem
+host1_server_key.pem
+host2_server_certificate.pem
+host2_server_key.pem
+clientcert.pem
+clientkey.pem

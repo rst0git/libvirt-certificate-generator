@@ -1,0 +1,7 @@
+country = UK
+locality = London
+organization = libvirt.org
+cn = desktop
+tls_www_client
+encryption_key
+signing_key
