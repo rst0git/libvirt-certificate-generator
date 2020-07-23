@@ -67,7 +67,7 @@ host2_server_key.pem:
 host2_server_certificate.pem: host2_server_key.pem cacert.pem certificate_authority_key.pem
 	certtool \
 		--generate-certificate \
-		--template host1_server_template.info \
+		--template host2_server_template.info \
 		--load-privkey $< \
 		--load-ca-certificate $(word 2,$^) \
 		--load-ca-privkey $(word 3,$^) \
